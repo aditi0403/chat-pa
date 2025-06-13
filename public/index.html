@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gemini AI Chat</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>your own chat</h1>
+        <p class="subtitle">u know the drill</p>
+      </header>
+
+      <div class="chat-container">
+        <div class="chat-messages" id="chatMessages">
+          <div class="message">
+            <div class="avatar">AI</div>
+            <div class="message-content">
+              hi, i'll listen to u
+            </div>
+          </div>
+        </div>
+
+        <div class="input-container">
+          <form class="input-form" id="chatForm">
+            <textarea
+              id="userInput"
+              placeholder="yap here"
+              rows="1"
+              required
+            ></textarea>
+            <button type="submit" id="sendButton">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
